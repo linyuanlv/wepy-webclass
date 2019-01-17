@@ -1,0 +1,74 @@
+<style lang="scss">
+
+</style>
+<template>
+  <view class="body">
+    <message />
+
+    
+  </view>
+</template>
+
+<script>
+  import wepy from 'wepy'
+  import { connect } from 'wepy-redux'
+  import Message from '../components/message'
+  // import Counter from 'counter' // alias example
+  // import List from '../components/list' // aliasFields example
+  // import moduleA from 'module-a' // aliasFields ignore module example
+  // import Group from '../components/group'
+  // import Toast from 'wepy-com-toast'
+  // import testMixin from '../mixins/test'
+
+  // console.log('moduleA ignored: ', moduleA) // => moduleA ignored: {}
+
+  @connect({
+    num (state) {
+      return state.counter.num
+    },
+    asyncNum (state) {
+      return state.counter.asyncNum
+    },
+    sumNum (state) {
+      return state.counter.num + state.counter.asyncNum
+    }
+  })
+
+  export default class Index extends wepy.page {
+    config = {
+      navigationBarTitleText: 'TiMi'
+    }
+    components = {
+      message : Message,
+      // counter1: Counter,
+      // counter2: Counter,
+      // list: List,
+      // group: Group,
+      // toast: Toast
+    }
+
+    // mixins = [testMixin]
+
+    data = {
+
+    }
+
+    computed = {
+   
+    }
+
+    methods = {
+     
+  
+    }
+
+    events = {
+
+    }
+
+    onLoad() {
+    
+
+    }
+  }
+</script>

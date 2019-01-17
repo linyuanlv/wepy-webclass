@@ -1,0 +1,84 @@
+ <style lang="scss">
+	.message {
+		padding-left: 20rpx;
+		background-color:#fff;
+		.item {
+			flex-direction: row;
+			height: 136rpx;
+			box-sizing: border-box;
+			.header {
+				width: 100rpx;
+				height: 100rpx;
+				margin-right: 30rpx;
+				padding: 20rpx 0;
+				.img{
+					width: 100rpx;
+					height: 100rpx;
+					border-radius: 10rpx;
+				}
+			}
+			.content{
+				box-sizing: border-box;
+				flex-direction: column;
+				padding: 20rpx 0;
+				flex: 1;
+				border-bottom: 2rpx solid #dad9d6;
+				.name{
+					font-size: 32rpx;
+					margin: 8rpx 0 2rpx;
+				}
+			}
+		} 
+	}
+	
+ </style>
+
+ <template>
+		<view class="message">
+			<!-- <block wx:for="{{list}}" wx:key="*this"> -->
+				<view class="item flex">
+					<view class="header">
+						<image class="img" src="/images/myheader.png" />
+					</view>
+					<view class="content flex">
+						<view class="name color33">宋宋</view>
+						<view class="lastmsg color99">不知道</view>
+					</view>
+				</view>
+				<view class="item flex">
+					<view class="header">
+						<image class="img" src="/images/myheader.png" />
+					</view>
+					<view class="content flex">
+						<view class="name color33">吕吕</view>
+						<view class="lastmsg color99">我也不知道</view>
+					</view>
+				</view>
+			<!-- </block> -->
+		</view>
+ </template>
+
+ <script>
+	import wepy from 'wepy'
+	import api from '../common/api'
+ export default class Message extends wepy.component{
+	 data = {
+		 list: []
+	 }
+
+	 methods = {
+		 
+	 }
+	 
+	 onLoad() {
+		console.log(api.getMessageList());
+	 }
+	 
+
+
+	
+ }
+ </script>
+ 
+ 
+ 
