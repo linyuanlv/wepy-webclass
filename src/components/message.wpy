@@ -34,27 +34,19 @@
  </style>
 
  <template>
+
 		<view class="message">
-			<!-- <block wx:for="{{list}}" wx:key="*this"> -->
-				<view class="item flex">
+			<block wx:for="{{list}}" wx:key="index" wx:for-index="index" wx:for-item="item">
+				<view class="item flex" @tap="select({{item.id}})">
 					<view class="header">
-						<image class="img" src="/images/myheader.png" />
+						<image class="img" src="{{item.icon}}" />
 					</view>
 					<view class="content flex">
-						<view class="name color33">宋宋</view>
-						<view class="lastmsg color99">不知道</view>
+						<view class="name color33">{{item.name}}</view>
+						<view class="lastmsg color99">{{item.lastmsg}}</view>
 					</view>
 				</view>
-				<view class="item flex">
-					<view class="header">
-						<image class="img" src="/images/myheader.png" />
-					</view>
-					<view class="content flex">
-						<view class="name color33">吕吕</view>
-						<view class="lastmsg color99">我也不知道</view>
-					</view>
-				</view>
-			<!-- </block> -->
+			</block>
 		</view>
  </template>
 
@@ -67,12 +59,25 @@
 	 }
 
 	 methods = {
-		 
+		 select (id,e) {
+			 
+		 }
 	 }
 	 
 	 onLoad() {
-		console.log(api.getMessageList());
+		const that = this;
+		let list = api.getMessageList()
+		setTimeout( () => {
+			that.list = list;
+			that.$apply();
+		},500)
 	 }
+
+	 onShow() {
+	
+	 }
+
+
 	 
 
 

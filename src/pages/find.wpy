@@ -11,15 +11,15 @@
 
 <script>
   import wepy from 'wepy'
-  import Message from '../components/message'
+  import Discovery from '../components/discovery'
 
 
   export default class Index extends wepy.page {
     config = {
-      navigationBarTitleText: '微信'
+      navigationBarTitleText: '通讯录'
     }
     components = {
-      message : Message,
+      discovery : Discovery,
     }
 
 

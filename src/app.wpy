@@ -20,7 +20,10 @@ setStore(store)
 export default class extends wepy.app {
     config = {
         pages: [
-            'pages/index'
+           'pages/my',
+            'pages/index',
+            'pages/addressList',
+            'pages/find'
         ],
         window: {
             backgroundTextStyle: 'light',
@@ -39,17 +42,17 @@ export default class extends wepy.app {
                 selectedIconPath: "images/message_active.png",
                 text: "微信"
             }, {
-                pagePath: "pages/index",
+                pagePath: "pages/addressList",
                 iconPath: "images/contact.png",
                 selectedIconPath: "images/contact_active.png",
                 text: "通讯录"
             }, {
-                pagePath: "pages/index",
+                pagePath: "pages/find",
                 iconPath: "images/discovery.png",
                 selectedIconPath: "images/discovery_active.png",
                 text: "发现"
             }, {
-                pagePath: "pages/index",
+                pagePath: "pages/my",
                 iconPath: "images/me.png",
                 selectedIconPath: "images/me_active.png",
                 text: "我"
@@ -67,7 +70,8 @@ export default class extends wepy.app {
   }
 
   onLaunch() {
-    this.testAsync()
+    this.testAsync();
+    this.getUserInfo();
   }
 
   sleep (s) {
@@ -80,16 +84,18 @@ export default class extends wepy.app {
 
   async testAsync () {
     const data = await this.sleep(3)
-    console.log(data)
+    console.log(data,'testAsync')
   }
 
   getUserInfo(cb) {
     const that = this
+    console.log(this.globalData.userInfo);
     if (this.globalData.userInfo) {
       return this.globalData.userInfo
     }
     wepy.getUserInfo({
       success (res) {
+        console.log(res);
         that.globalData.userInfo = res.userInfo
         cb && cb(res.userInfo)
       }

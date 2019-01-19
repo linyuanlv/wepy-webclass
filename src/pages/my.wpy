@@ -3,23 +3,22 @@
 </style>
 <template>
   <view class="body">
-    <message />
-
+    <me />
     
   </view>
 </template>
 
 <script>
   import wepy from 'wepy'
-  import Message from '../components/message'
+  import Me from '../components/me'
 
 
   export default class Index extends wepy.page {
     config = {
-      navigationBarTitleText: '微信'
+      navigationBarTitleText: '我的'
     }
     components = {
-      message : Message,
+      me : Me,
     }
 
 

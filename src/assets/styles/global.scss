@@ -1,9 +1,10 @@
-page{
+page {
 	font-size: 28rpx;
 	font-family: '\5FAE\8F6F\96C5\9ED1', arial;
 	background-color: #f0eff5;
+	box-sizing: border-box;
 }
-.flex{
+.flex {
 	display: flex;
 	display: -webkit-flex;
 }
@@ -12,4 +13,13 @@ page{
 }
 .color99 {
 	color: #999;
+}
+.f30 {
+	font-size: 30rpx;
+}
+.f32 {
+	font-size: 32rpx;
+}
+.f34 {
+	font-size: 34rpx;
 }
