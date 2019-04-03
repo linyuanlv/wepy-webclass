@@ -3,6 +3,11 @@
         background-color: #f0eff5;
         height: 100%;
         margin-top: 40rpx;
+        .icon-img {
+            width: 40rpx;
+            height: 40rpx;
+        }
+        // 我的信息
         .info {
             box-sizing: border-box;
             width: 100%;
@@ -16,34 +21,119 @@
                 margin-right: 30rpx;
             }
             .wechat_info{
+                width: 77%;
                 .wechat_name {
                     margin: 20rpx 0 18rpx;
                 }
                 .wechat_id {
                     color: #666;
                 }
-                .wechat_code{
-                    width: 40rpx;
-                    height: 40rpx;
+                
+            }
+        }
+        //支付 
+        .me-item {
+            box-sizing: border-box;
+            width: 100%;
+            height: 110rpx;
+            padding: 0 40rpx;
+            justify-content: space-between;
+            line-height: 110rpx;
+            .me-icon {
+                vertical-align: middle;
+                margin-right: 40rpx;
+            }
+            .me-more {
+                margin: 35rpx 0;
+            }
+        }
+        //我的菜单（收藏，相册，卡包，表情，设置）
+        .me-tab {
+            box-sizing: border-box;
+            width: 100%;
+            height: 440rpx;
+            padding-left: 40rpx;
+            .me-tab-item {
+                height: 108rpx;
+                line-height: 108rpx;
+                .me-icon {
+                    margin: 35rpx 40rpx 35rpx 0;
+                }
+                .me-tab-item-right {
+                    flex: 1;
+                    justify-content: space-between;
+                    border-bottom: 2rpx solid #eee;
+                    .me-more {
+                        margin: 35rpx 40rpx 35rpx 0;
+                    }
                 }
             }
+          
         }
     }
 </style>
 
 <template>
     <view class="me">
+
         <view class="info item flex">
             <image class="me_icon" src="../mocks/users/xiaoxiaolv.png" />
             <view class="wechat_info">
                 <view class="wechat_name f32">默</view>
                 <view class="wechat_id">
-                    微信号:lly542879305
-                    <image class="wechat_code" src="/images/qr_code.png" />
+                    <text class="fl">微信号:lly542879305</text>
+                    <image class="icon-img fr" src="/images/more.png" />
+                    <image class="icon-img fr mr20" src="/images/qr_code.png" />
                 </view>
-                
             </view>
-            <view></view>
+        </view>
+
+        <view class="me-item bgff mtb20 flex-row">
+            <view class="me-item-left">
+                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <text>支付</text>
+            </view>
+            <view>
+                <image class="me-more icon-img" src="/images/more.png" />
+            </view>
+        </view>
+
+        <view class="bgff me-tab">
+            <view class="me-tab-item flex-row">
+                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <view class="flex-row me-tab-item-right">
+                    <text>收藏</text>
+                    <image class="me-more icon-img" src="/images/more.png" />
+                </view>
+            </view>
+              <view class="me-tab-item flex-row">
+                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <view class="flex-row me-tab-item-right">
+                    <text>收藏</text>
+                    <image class="me-more icon-img" src="/images/more.png" />
+                </view>
+            </view>
+              <view class="me-tab-item flex-row">
+                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <view class="flex-row me-tab-item-right">
+                    <text>收藏</text>
+                    <image class="me-more icon-img" src="/images/more.png" />
+                </view>
+            </view>
+              <view class="me-tab-item flex-row">
+                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <view class="flex-row me-tab-item-right">
+                    <text>收藏</text>
+                    <image class="me-more icon-img" src="/images/more.png" />
+                </view>
+            </view>
+              <view class="me-tab-item flex-row">
+                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <view class="flex-row me-tab-item-right">
+                    <text>收藏</text>
+                    <image class="me-more icon-img" src="/images/more.png" />
+                </view>
+            </view>
         </view>
     </view>
 </template>

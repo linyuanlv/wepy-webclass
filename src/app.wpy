@@ -27,15 +27,15 @@ export default class extends wepy.app {
         ],
         window: {
             backgroundTextStyle: 'light',
-            navigationBarBackgroundColor: '#000',
+            navigationBarBackgroundColor: 'black',
             navigationBarTitleText: 'WeChat',
-            navigationBarTextStyle: '#000'
+            navigationBarTextStyle: 'black'
         },
         tabBar: {
             color: '#7A7E83',
             selectedColor: '#3cc51f',
             borderStyle: 'black',
-            backgroundColor: "#fff",
+            backgroundColor: "white",
             list: [{
                 pagePath: "pages/index",
                 iconPath: "images/message.png",
@@ -71,7 +71,7 @@ export default class extends wepy.app {
 
   onLaunch() {
     this.testAsync();
-    this.getUserInfo();
+    // this.getUserInfo();
   }
 
   sleep (s) {

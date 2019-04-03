@@ -5,11 +5,13 @@
 		"es6": false,
 		"postcss": false,
 		"minified": false,
-		"newFeature": true
+		"newFeature": true,
+		"autoAudits": false
 	},
 	"compileType": "miniprogram",
 	"appid": "wx5783a633e197f8ee",
 	"projectname": "webclass",
 	"miniprogramRoot": "dist/",
+	"libVersion": "2.6.1",
 	"condition": {}
 }

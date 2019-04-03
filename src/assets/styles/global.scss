@@ -8,12 +8,34 @@ page {
 	display: flex;
 	display: -webkit-flex;
 }
+.flex-row {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+}
+.flex-column {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.bgff {
+	background-color: #fff;
+}
+
 .color33 {
 	color: #333;
 }
 .color99 {
 	color: #999;
 }
+
 .f30 {
 	font-size: 30rpx;
 }
@@ -22,4 +44,11 @@ page {
 }
 .f34 {
 	font-size: 34rpx;
+}
+
+.mr20 {
+	margin-right: 20rpx;
+}
+.mtb20 {
+	margin: 20rpx 0;
 }
