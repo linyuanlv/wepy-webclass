@@ -109,28 +109,21 @@
               <view class="me-tab-item flex-row">
                 <image class="me-icon icon-img" src="/images/pay.png"/>
                 <view class="flex-row me-tab-item-right">
-                    <text>收藏</text>
+                    <text>相册</text>
                     <image class="me-more icon-img" src="/images/more.png" />
                 </view>
             </view>
               <view class="me-tab-item flex-row">
                 <image class="me-icon icon-img" src="/images/pay.png"/>
                 <view class="flex-row me-tab-item-right">
-                    <text>收藏</text>
+                    <text>卡包</text>
                     <image class="me-more icon-img" src="/images/more.png" />
                 </view>
             </view>
               <view class="me-tab-item flex-row">
                 <image class="me-icon icon-img" src="/images/pay.png"/>
                 <view class="flex-row me-tab-item-right">
-                    <text>收藏</text>
-                    <image class="me-more icon-img" src="/images/more.png" />
-                </view>
-            </view>
-              <view class="me-tab-item flex-row">
-                <image class="me-icon icon-img" src="/images/pay.png"/>
-                <view class="flex-row me-tab-item-right">
-                    <text>收藏</text>
+                    <text>表情</text>
                     <image class="me-more icon-img" src="/images/more.png" />
                 </view>
             </view>
