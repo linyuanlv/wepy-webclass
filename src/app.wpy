@@ -35,7 +35,7 @@ export default class extends wepy.app {
             color: '#7A7E83',
             selectedColor: '#3cc51f',
             borderStyle: 'black',
-            backgroundColor: "white",
+            backgroundColor: "#f0eff5",
             list: [{
                 pagePath: "pages/index",
                 iconPath: "images/message.png",
