@@ -3,7 +3,7 @@
 </style>
 <template>
   <view class="body">
-    <message />
+    <discovery />
 
     
   </view>
@@ -16,7 +16,9 @@
 
   export default class Index extends wepy.page {
     config = {
-      navigationBarTitleText: '通讯录'
+      navigationBarTitleText: '发现',
+      navigationBarBackgroundColor: "#f0eff5",
+      navigationBarTextStyle: 'black'
     }
     components = {
       discovery : Discovery,

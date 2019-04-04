@@ -2,7 +2,6 @@
     .me {
         background-color: #f0eff5;
         height: 100%;
-        margin-top: 40rpx;
         .icon-img {
             width: 40rpx;
             height: 40rpx;
@@ -11,8 +10,8 @@
         .info {
             box-sizing: border-box;
             width: 100%;
-            height: 160rpx;
-            padding: 15rpx 30rpx;
+            height: 200rpx;
+            padding: 55rpx 30rpx 15rpx;
             background-color: #fff;
             .me_icon {
                 width: 130rpx;

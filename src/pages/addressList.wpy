@@ -3,7 +3,7 @@
 </style>
 <template>
   <view class="body">
-    <message />
+    <contact />
 
     
   </view>
