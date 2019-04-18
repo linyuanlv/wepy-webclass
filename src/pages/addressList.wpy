@@ -16,6 +16,8 @@
 
   export default class Index extends wepy.page {
     config = {
+      navigationBarBackgroundColor: "#f0eff5",
+      navigationBarTextStyle: 'black',
       navigationBarTitleText: '通讯录'
     }
     components = {

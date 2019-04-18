@@ -28,13 +28,26 @@ page {
 .bgff {
 	background-color: #fff;
 }
+.colorff{color: #fff;}
+.color00{color: #000;}
+.color33{color: #333;}
+.color66{color: #666;}
+.color99{color: #999;}
+.colorcc{color: #ccc;}
+.colorf3{color: #f3f3f3;}
+.colorred{color: #fd4437;}
+.colormain{color: #2774fb;}
 
-.color33 {
-	color: #333;
-}
-.color99 {
-	color: #999;
-}
+.font20{font-size: 20rpx;}
+.font22{font-size: 22rpx;}
+.font24{font-size: 24rpx;}
+.font26{font-size: 26rpx;}
+.font28{font-size: 28rpx;}
+.font30{font-size: 30rpx;}
+.font32{font-size: 32rpx;}
+.font34{font-size: 34rpx;}
+.font42{font-size: 42rpx;}
+.font44{font-size: 44rpx;}
 
 .f30 {
 	font-size: 30rpx;
@@ -54,4 +67,13 @@ page {
 }
 .mtb20 {
 	margin: 20rpx 0;
+}
+.bd10{
+	border-radius: 10rpx;
+}
+.bgff {
+	background-color: #fff;
+}
+.tc {
+	text-align: center;
 }

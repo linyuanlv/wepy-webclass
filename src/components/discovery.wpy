@@ -53,82 +53,82 @@
     <view class="discovery">
         <view class="discovery-item bgff mb20 flex-row">
             <view class="discovery-item-left">
-                <image class="discovery-icon icon-img" src="/images/moment.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/moment.png"/>
                 <text>朋友圈</text>
             </view>
             <view>
-                <image class="discovery-more icon-img" src="/images/more.png" />
+                <image class="discovery-more icon-img" src="/images/icon/more.png" />
             </view>
         </view>
 
         <view class="bgff discovery-tab mb20">
             <view class="discovery-tab-item flex-row">
-                <image class="discovery-icon icon-img" src="/images/saoyis.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/saoyis.png"/>
                 <view class="flex-row discovery-tab-item-right">
                     <text>扫一扫</text>
-                    <image class="discovery-more icon-img" src="/images/more.png" />
+                    <image class="discovery-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
             <view class="discovery-tab-item flex-row">
-                <image class="discovery-icon icon-img" src="/images/yaoyiy.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/yaoyiy.png"/>
                 <view class="flex-row discovery-tab-item-right borderNO">
                     <text>摇一摇</text>
-                    <image class="discovery-more icon-img" src="/images/more.png" />
+                    <image class="discovery-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
         </view>
 
         <view class="bgff discovery-tab mb20">
             <view class="discovery-tab-item flex-row">
-                <image class="discovery-icon icon-img" src="/images/kanyik.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/kanyik.png"/>
                 <view class="flex-row discovery-tab-item-right">
                     <text>看一看</text>
-                    <image class="discovery-more icon-img" src="/images/more.png" />
+                    <image class="discovery-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
             <view class="discovery-tab-item flex-row">
-                <image class="discovery-icon icon-img" src="/images/souyis.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/souyis.png"/>
                 <view class="flex-row discovery-tab-item-right borderNO">
                     <text>搜一搜</text>
-                    <image class="discovery-more icon-img" src="/images/more.png" />
+                    <image class="discovery-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
         </view>
 
         <view class="discovery-item bgff mb20 flex-row mb20">
             <view class="discovery-item-left">
-                <image class="discovery-icon icon-img" src="/images/fujindr.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/fujindr.png"/>
                 <text>附近的人</text>
             </view>
             <view>
-                <image class="discovery-more icon-img" src="/images/more.png" />
+                <image class="discovery-more icon-img" src="/images/icon/more.png" />
             </view>
         </view>
 
         <view class="bgff discovery-tab mb20">
             <view class="discovery-tab-item flex-row">
-                <image class="discovery-icon icon-img" src="/images/gouwu.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/gouwu.png"/>
                 <view class="flex-row discovery-tab-item-right">
                     <text>购物</text>
-                    <image class="discovery-more icon-img" src="/images/more.png" />
+                    <image class="discovery-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
             <view class="discovery-tab-item flex-row">
-                <image class="discovery-icon icon-img" src="/images/youxi.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/youxi.png"/>
                 <view class="flex-row discovery-tab-item-right borderNO">
                     <text>游戏</text>
-                    <image class="discovery-more icon-img" src="/images/more.png" />
+                    <image class="discovery-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
         </view>
 
         <view class="discovery-item bgff mb20 flex-row mb20">
             <view class="discovery-item-left">
-                <image class="discovery-icon icon-img" src="/images/xiaochengx.png"/>
+                <image class="discovery-icon icon-img" src="/images/icon/xiaochengx.png"/>
                 <text>小程序</text>
             </view>
             <view>
-                <image class="discovery-more icon-img" src="/images/more.png" />
+                <image class="discovery-more icon-img" src="/images/icon/more.png" />
             </view>
         </view>
 

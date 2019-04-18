@@ -84,60 +84,60 @@
                 <view class="wechat_name f32">默</view>
                 <view class="wechat_id">
                     <text class="fl">微信号:lly542879305</text>
-                    <image class="icon-img fr" src="/images/more.png" />
-                    <image class="icon-img fr mr20" src="/images/qr_code.png" />
+                    <image class="icon-img fr" src="/images/icon/more.png" />
+                    <image class="icon-img fr mr20" src="/images/icon/qr_code.png" />
                 </view>
             </view>
         </view>
 
         <view class="me-item bgff mtb20 flex-row">
             <view class="me-item-left">
-                <image class="me-icon icon-img" src="/images/pay.png"/>
+                <image class="me-icon icon-img" src="/images/icon/pay.png"/>
                 <text>支付</text>
             </view>
             <view>
-                <image class="me-more icon-img" src="/images/more.png" />
+                <image class="me-more icon-img" src="/images/icon/more.png" />
             </view>
         </view>
 
         <view class="bgff me-tab">
             <view class="me-tab-item flex-row">
-                <image class="me-icon icon-img" src="/images/save.png"/>
+                <image class="me-icon icon-img" src="/images/icon/save.png"/>
                 <view class="flex-row me-tab-item-right">
                     <text>收藏</text>
-                    <image class="me-more icon-img" src="/images/more.png" />
+                    <image class="me-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
               <view class="me-tab-item flex-row">
-                <image class="me-icon icon-img" src="/images/photo.png"/>
+                <image class="me-icon icon-img" src="/images/icon/photo.png"/>
                 <view class="flex-row me-tab-item-right">
                     <text>相册</text>
-                    <image class="me-more icon-img" src="/images/more.png" />
+                    <image class="me-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
               <view class="me-tab-item flex-row">
-                <image class="me-icon icon-img" src="/images/card.png"/>
+                <image class="me-icon icon-img" src="/images/icon/card.png"/>
                 <view class="flex-row me-tab-item-right">
                     <text>卡包</text>
-                    <image class="me-more icon-img" src="/images/more.png" />
+                    <image class="me-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
               <view class="me-tab-item flex-row">
-                <image class="me-icon icon-img" src="/images/biaoqing.png"/>
+                <image class="me-icon icon-img" src="/images/icon/biaoqing.png"/>
                 <view class="flex-row me-tab-item-right borderNO">
                     <text>表情</text>
-                    <image class="me-more icon-img" src="/images/more.png" />
+                    <image class="me-more icon-img" src="/images/icon/more.png" />
                 </view>
             </view>
         </view>
 
         <view class="me-item bgff mtb20 flex-row">
             <view class="me-item-left">
-                <image class="me-icon icon-img" src="/images/setting.png"/>
+                <image class="me-icon icon-img" src="/images/icon/setting.png"/>
                 <text>设置</text>
             </view>
             <view>
-                <image class="me-more icon-img" src="/images/more.png" />
+                <image class="me-more icon-img" src="/images/icon/more.png" />
             </view>
         </view>
     </view>
